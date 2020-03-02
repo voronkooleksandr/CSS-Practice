@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Ubuntu&display=swap');
+
+:root {
+--main-color: black;
+font-family: 'Ubuntu';
+}
+
+body: {
+    max-width: 980;
+
+}
+
+h1, p {
+margin: 0;
+padding: 0;
+}
+
+header nav h1 {
+font-family: 'Muli';
+font-size: 3em;
+text-transform: uppercase;
+}
+
+header nav .top-menu a{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.header nav .top-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    align-items: 
+}
+
+.header nav .top-menu a:hover {
+    border: solid 1px var(--main color);
+}
+
+@media (min-width: 550px; ) {
+    header nav {
+        display: flex;
+
+    header nav     }
+
+}
+
+header div {
+    background: url(../img.baby-joda,jpec);
+    min-height: 500 px;
+    background-size: cover;
+    background-pozition: center;
+}
+
+header baner {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+head .baner .title {
+    font-size: 3rem;
+
+}
